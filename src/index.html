@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css & typescript</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100">
+
+     <!-- Header Section -->
+    <header class="bg-blue-500 p-8 text-white text-center">
+        <h1 class="text-3xl font-bold mb-4">Welcome to My Website</h1>
+        <p class="text-lg">This is an example site demonstrating Tailwind CSS and TypeScript capabilities.</p>
+        <p class="text-lg">In this sight, you will get to know me by answering 3 questions.</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <!-- Main Content Section -->
+    <main class="p-8">
+        <section class="mb-8" id="ice-cream">
+            <h2 class="text-2xl font-bold mb-2">Favorite Ice Cream</h2>
+            <p class="mb-4">What is my favorite ice cream?</p>
+            <div class="grid grid-cols-2 gap-4">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300
+                               focus:outline-none focus:ring focus:border-blue-300 active:bg-red-500">Mint Chocolate Chip</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300
+                               focus:outline-none focus:ring focus:border-blue-300 active:bg-red-500">Rocky Road</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300
+                               focus:outline-none focus:ring focus:border-blue-300 active:bg-red-500">Cookie Dough</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300
+                               focus:outline-none focus:ring focus:border-blue-300 active:bg-green-500">Huckleberry</button>
+            </div>
+        </section>
+        <section class="mb-8" id="mission"">
+            <h2 class="text-2xl font-bold mb-2">Mission</h2>
+            <p class="mb-4">Where did I serve my mission?</p>
+            <div class="grid grid-cols-2 gap-4">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">Puebla North Mexico Mission</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">Vanuatu Port Vila Mission</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">Philippines Angeles Mission</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-green-500">Utah Provo Mission</button>
+            </div>
+        </section>
+        <section class="mb-8" id="scripture">
+            <h2 class="text-2xl font-bold mb-2">Favorite Scripture</h2>
+            <p class="mb-4">What is my favorite scripture?</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-green-500">Proverbs 3:11-12</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">Proverbs 3:5-6</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">1 Samuel 15:22</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 active:bg-red-500">2 Nephi 27:23</button>
+            </div>
+        </section>
+        <section>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 p-4 text-white text-center">
+        <p>&copy; 2024 James's Website. All rights reserved.</p>
+    </footer>
+
+    <script src="output.js"></script>
+</body>
+</html>
